@@ -1,0 +1,58 @@
+/* AppHeader.css */
+.app-header {
+    padding: 20px;
+    background-color: #081224;
+    color: #fff;
+    position: fixed;
+    width: 98%;
+}
+
+.app-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 5px;
+    /* Задайте размер логотипа по вашему желанию */
+}
+
+.nav-links a,
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links a {
+    position: relative;
+}
+
+.nav-links a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 35px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+}
