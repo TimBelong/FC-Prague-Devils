@@ -4,14 +4,17 @@
     position: fixed;
     width: 100%;
     z-index: 10;
+    top: 0;
+    background-color: #081224;
 }
 
 .app-header .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #081224;
+    padding: 10px 0px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .app-header .header_links{
@@ -23,8 +26,7 @@
 
 .logo img {
     width: 60px;
-    border-radius: 5px;
-    /* Задайте размер логотипа по вашему желанию */
+    border-radius: 50%;
 }
 
 .nav-links a,

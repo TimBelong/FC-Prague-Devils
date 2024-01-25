@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-import './AppHeader.css'; // Создайте файл AppHeader.css для стилей компонента
+import './AppHeader.css';
 
 const AppHeader = () => {
   return (
@@ -13,14 +13,12 @@ const AppHeader = () => {
 		<div className="header_links">
 			<nav className="nav-links">
 				<a href="/">Home</a>
-				<a href="/about">Feautures</a>
-				<a href="/services">News</a>
-				<a href="/contact">Contact</a>
+				<a href="/about">News</a>
+				<a href="/services">Trainings</a>
+				<a href="/contact">Season</a>
+				<a href="/contact">Team</a>
+				<a href="/contact">Shop</a>
 			</nav>
-
-			<div className="search-bar">
-				<input type="text" placeholder="Search" />
-			</div>
 
 			<div className="social-links">
 				<a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook size={30}/></a>
@@ -30,7 +28,7 @@ const AppHeader = () => {
 		</div>
       </div>
 
-	  <div className="header_bottom">
+	  {/* <div className="header_bottom">
 		<nav className="bottom-links">
 			<a href="#">Table of Matches</a>
 			<a href="#">Updates</a>
@@ -41,7 +39,7 @@ const AppHeader = () => {
 			<a href="#">Events</a>
 			<a href="#">Sponsors</a>
 		</nav>
-	  </div>
+	  </div> */}
     </header>
   );
 };
