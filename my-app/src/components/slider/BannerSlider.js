@@ -17,6 +17,7 @@ class BannerSlider extends Component {
       <SwiperSlide key={index}>
         <div className="slider-container">
           <img className="slider-image" src={[slider1, slider2, slider3][index]} alt={banner.alt} />
+          <div className="overlay"></div>
           <div className="banner_content">
             <div className="content_item">
               <div className="item_title">{banner.title}</div>
@@ -47,6 +48,7 @@ class BannerSlider extends Component {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }}
+        loop={true}
       >
         {slides}
         <div className="swiper-button-next"></div>

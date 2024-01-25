@@ -5,10 +5,12 @@ import BannerSlider from '../slider/BannerSlider';
 
 const App = () => {
   const banners = [
-    { id: 1, image: 'slider1.jpg', alt: 'Ьфшт', title: 'Title 1', text: 'Text 1' },
-    { id: 2, image: 'slider2.jpg', alt: 'Banner 2', title: 'Title 2', text: 'Text 2' },
-    { id: 3, image: 'slider3.jpg', alt: 'Banner 3', title: 'Title 3', text: 'Text 3' },
+    { id: 1, image: 'images/slider/slider1.jpg', alt: 'Banner 1', title: 'Lorenco: "WE ARE ON THE RIGHT PATH"', text: "Lorenco's words to Milan TV: 'Focusing on Bologna, moving in the right direction on our path'" },
+    { id: 2, image: 'images/slider/slider2.jpg', alt: 'Banner 2', title: 'TIME MACHINE: PAZZINI IN AC MILAN V BOLOGNA', text: 'Giampaolo runs riot again against the Rossoblù and decides the match at the San Siro' },
+    { id: 3, image: 'images/slider/slider3.jpg', alt: 'Banner 3', title: 'TACTICAL SESSION AT MILANELLO', text: "Rossoneri preparations continue ahead of Saturday's clash with Bologna" },
   ];
+
+  
 
   return (
     <div className="App">
